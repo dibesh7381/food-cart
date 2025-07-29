@@ -25,7 +25,7 @@ const Navbar = () => {
           >
             <span className="text-3xl">🛒</span>
             {itemCount > 0 && (
-              <span className="absolute -top-1 -right-2 bg-red-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
+              <span className="absolute -top-1 -right-2 bg-red-500 text-white text-xs w-4 h-4 flex items-center justify-center rounded-full">
                 {itemCount}
               </span>
             )}
