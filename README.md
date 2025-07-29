@@ -17,9 +17,15 @@ A modern, mobile-responsive e-commerce product listing application built with **
 
 ## 📸 Screenshots
 
-| Home Page | Cart |
-|-----------|--------|------|
-| ![Home](src/Screenshots/2.png) | ![Cart](src/Screenshots/1.png) |
+ Home Page
+
+ ![Home](src/Screenshots/2.png) 
+
+ ---
+
+ Cart Page
+
+ ![Cart](src/Screenshots/1.png) |
 
 ---
 
@@ -45,6 +51,15 @@ cd your-repo-name
 npm install
 
 npm run dev
+```
+
+---
+
+![Connect With Me](https://github.com/dibesh7381)
+
+---
+
+
 
 
 
