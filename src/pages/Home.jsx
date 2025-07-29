@@ -81,10 +81,10 @@ const products = [
   },
   {
     id : 12,
-    name : 'Washing Machine',
-    price : 15999,
-    image : 'https://www.lg.com/content/dam/channel/wcms/in/images/washing-machines/fhp1209z9b_ablqeil_eail_in_c/gallery/FHP1209Z9B-Washing-Machines-Front-View-D-01.jpg',
-    tags : ['Washing machine']
+    name : '',
+    price : 39999,
+    image : 'https://www.lg.com/content/dam/channel/wcms/in/split-ac/gallery/us-q19ynze1/gallery/US-Q19YNZE-split-ac-fornt-view-open-door-DZ-02.jpg/_jcr_content/renditions/thum-1600x1062.jpeg',
+    tags : ['Ac','ac']
   },
   {
     id : 13,
@@ -95,10 +95,10 @@ const products = [
   },
   {
     id : 14,
-    name : 'AC',
-    price : 39999,
-    image : 'https://www.lg.com/content/dam/channel/wcms/in/split-ac/gallery/us-q19ynze1/gallery/US-Q19YNZE-split-ac-fornt-view-open-door-DZ-02.jpg/_jcr_content/renditions/thum-1600x1062.jpeg',
-    tags : ['Ac']
+    name : 'Washing Machine',
+    price : 15999,
+    image : 'https://www.lg.com/content/dam/channel/wcms/in/images/washing-machines/fhp1209z9b_ablqeil_eail_in_c/gallery/FHP1209Z9B-Washing-Machines-Front-View-D-01.jpg',
+    tags : ['Washing machine','washing machine']
   },
   {
     id : 15,
