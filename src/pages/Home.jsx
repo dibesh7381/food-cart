@@ -98,7 +98,7 @@ const products = [
     name : 'AC',
     price : 39999,
     image : 'https://www.lg.com/content/dam/channel/wcms/in/split-ac/gallery/us-q19ynze1/gallery/US-Q19YNZE-split-ac-fornt-view-open-door-DZ-02.jpg/_jcr_content/renditions/thum-1600x1062.jpeg',
-    tags : ['ac']
+    tags : ['Ac']
   },
   {
     id : 15,
