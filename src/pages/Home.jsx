@@ -77,38 +77,38 @@ const products = [
     name : 'Smart TV',
     price : 30999,
     image : 'https://images-cdn.ubuy.co.in/66ba4ff1fe767c56165d577d-lg-50un7300puf-alexa-built-in-50-inch-4k.jpg',
-    tags : ['tv']
+    tags : ['tv',"Tv"]
   },
   {
     id : 12,
     name : 'Washing Machine',
     price : 15999,
     image : 'https://www.lg.com/content/dam/channel/wcms/in/images/washing-machines/fhp1209z9b_ablqeil_eail_in_c/gallery/FHP1209Z9B-Washing-Machines-Front-View-D-01.jpg',
-    tags : ['washing machine']
+    tags : ['Washing machine']
   },
   {
     id : 13,
     name : 'Microwave',
     price : 9999,
     image : 'https://www.lg.com/content/dam/channel/wcms/in/images/microwave-ovens/mc3286brum_dbkqiln_eail_in_c/gallery/MC3286BRUM-microwave-ovens-Left-Side-view-DZ-05.jpg',
-    tags : ['microwave']
+    tags : ['Microwave']
   },
   {
-    id : 13,
+    id : 14,
     name : 'AC',
     price : 39999,
     image : 'https://www.lg.com/content/dam/channel/wcms/in/split-ac/gallery/us-q19ynze1/gallery/US-Q19YNZE-split-ac-fornt-view-open-door-DZ-02.jpg/_jcr_content/renditions/thum-1600x1062.jpeg',
     tags : ['ac']
   },
   {
-    id : 14,
+    id : 15,
     name : 'Cooler',
     price : 8999,
     image : 'https://images-eu.ssl-images-amazon.com/images/I/61KmeXOX+pL._AC_UL600_SR600,600_.jpg',
     tags : ['cooler']
   },
   {
-    id : 15,
+    id : 16,
     name : 'Refrigerator',
     price : 30999,
     image : 'https://img-prd-pim.poorvika.com/product/LG-421-l-frost-free-double-door-refrigerator-gl-t432apzr-shiny-steel-Front-View.png',
