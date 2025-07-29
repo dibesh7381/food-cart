@@ -25,7 +25,7 @@ A modern, mobile-responsive e-commerce product listing application built with **
 
  Cart Page
 
-[Cart](src/Screenshots/1.png) |
+![Cart](src/Screenshots/1.png) 
 
 ---
 
@@ -55,7 +55,7 @@ npm run dev
 
 ---
 
-![Connect With Me](https://github.com/dibesh7381)
+[Connect With Me](https://github.com/dibesh7381)
 
 ---
 
