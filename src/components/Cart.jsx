@@ -1,16 +1,24 @@
-import { useDispatch, useSelector } from 'react-redux';
-import { increment, decrement, removeFromCart, clearCart } from '../features/cart/cartSlice';
-import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from "react-redux";
+import {
+  increment,
+  decrement,
+  removeFromCart,
+  clearCart,
+} from "../features/cart/cartSlice";
+import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.cartItems);
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  const total = cartItems.reduce((sum, item) => sum + item.quantity * item.price, 0);
+  const total = cartItems.reduce(
+    (sum, item) => sum + item.quantity * item.price,
+    0
+  );
 
   const handleBuyNow = () => {
-    navigate('/checkout'); // ⬅️ Redirect to checkout page
+    navigate("/checkout");
   };
 
   return (
@@ -18,7 +26,15 @@ const Cart = () => {
       <h2 className="text-3xl font-bold text-gray-800 mb-6">🛒 Your Cart</h2>
 
       {cartItems.length === 0 ? (
-        <p className="text-gray-500 text-center">Your cart is empty.</p>
+        <div className="flex flex-col items-center justify-center h-[60vh] text-center space-y-4">
+          <p className="text-gray-500 text-lg">🛒 Your cart is empty.</p>
+          <button
+            onClick={() => navigate("/")}
+            className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-md text-sm transform transition duration-150 active:scale-95"
+          >
+            Keep Shopping
+          </button>
+        </div>
       ) : (
         <div className="space-y-4">
           {cartItems.map((item) => (
@@ -32,7 +48,9 @@ const Cart = () => {
                 className="w-20 h-20 object-cover rounded-lg border"
               />
               <div className="flex-1">
-                <h3 className="text-lg font-semibold text-gray-800">{item.name}</h3>
+                <h3 className="text-lg font-semibold text-gray-800">
+                  {item.name}
+                </h3>
                 <p className="text-sm text-gray-500">₹{item.price}</p>
 
                 <div className="flex items-center mt-2 gap-3">
@@ -77,7 +95,7 @@ const Cart = () => {
               Remove All
             </button>
             <button
-              onClick={() => dispatch(handleBuyNow)}
+              onClick={handleBuyNow}
               className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-sm"
             >
               Buy Now
@@ -90,9 +108,3 @@ const Cart = () => {
 };
 
 export default Cart;
-
-
-
-
-
-
