@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { useState } from "react";
 
 const Navbar = () => {
   const cartItems = useSelector((state) => state.cart.cartItems);
   const itemCount = cartItems.length;
-
-  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="bg-blue-800 shadow-md sticky top-0 z-50 w-full">
