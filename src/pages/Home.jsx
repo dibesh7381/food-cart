@@ -126,7 +126,7 @@ const Home = () => {
 
   return (
     <div className="w-[90%] mx-auto pt-6">
-      {/* 🔍 Search Bar */}
+      
       <input
         type="text"
         placeholder="Search products..."
@@ -135,7 +135,7 @@ const Home = () => {
         className="w-full max-w-md mb-6 px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
       />
 
-      {/* 🛒 Product Grid */}
+      
       <h1 className='text-center text-4xl font-bold'>Products</h1>
 <div className="grid gap-5 grid-cols-[repeat(auto-fit,_minmax(240px,_1fr))] justify-items-center pb-16 mt-10">
   {filteredProducts.length > 0 ? (

@@ -8,7 +8,7 @@ const Success = () => {
   const { name, address, paymentMethod, total } = location.state || {};
 
   useEffect(() => {
-    // If state is missing, redirect back to home
+
     if (!name || !address || !paymentMethod || !total) {
       navigate("/");
     }

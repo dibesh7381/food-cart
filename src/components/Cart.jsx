@@ -81,7 +81,7 @@ const Cart = () => {
         </div>
       )}
 
-      {/* Sticky Checkout Footer */}
+
       {cartItems.length > 0 && (
         <div className="fixed bottom-0 left-0 w-full bg-white border-t px-4 py-4 shadow-[0_-2px_10px_rgba(0,0,0,0.05)] flex flex-col sm:flex-row justify-between items-center gap-4 z-50">
           <h3 className="text-xl font-semibold text-gray-800">

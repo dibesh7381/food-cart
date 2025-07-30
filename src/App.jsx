@@ -8,7 +8,7 @@ import Success from './components/Suceess';
 function App() {
   return (
     <Router>
-      <Navbar /> {/* ✅ Always visible */}
+      <Navbar /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
